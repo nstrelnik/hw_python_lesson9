@@ -7,9 +7,9 @@ class User:
     email: str
     gender: str
     mobile: str
-    date_of_birth_day: str
-    date_of_birth_month: str
     date_of_birth_year: str
+    date_of_birth_month: str
+    date_of_birth_day: str
     subjects: str
     hobbies: str
     picture: str
