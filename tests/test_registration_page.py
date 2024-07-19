@@ -22,4 +22,4 @@ def test_student_registration_form():
     )
     registration_page.registered_user_with('Anastasiia Strelnik', 'test@gmail.com', 'Female', '9216666666', '29 March,2001',
                                              'Maths', 'Sports', 'picture.jpg',
-                                             'Quitzon Common, South Kraigville', 'NCR Delhi')
+                                             'Kaliningrad', 'NCR Delhi')
