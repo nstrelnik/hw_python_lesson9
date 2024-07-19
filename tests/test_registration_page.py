@@ -20,6 +20,7 @@ def test_student_registration_form():
         .fill_user_city('Delhi')
         .click_submit()
     )
-    registration_page.registered_user_with('Anastasiia Strelnik', 'test@gmail.com', 'Female', '9216666666', '29 March,2001',
-                                             'Maths', 'Sports', 'picture.jpg',
-                                             'Kaliningrad', 'NCR Delhi')
+    registration_page.registered_user_with('Anastasiia Strelnik', 'test@gmail.com', 'Female', '9216666666',
+                                           '29 March,2001',
+                                           'Maths', 'Sports', 'picture.jpg',
+                                           'Kaliningrad', 'NCR Delhi')
