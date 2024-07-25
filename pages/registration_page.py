@@ -1,5 +1,5 @@
 from selene import browser, have, command
-import resources.resource
+from utils import resource
 
 
 class RegistrationFormPage:
@@ -46,7 +46,7 @@ class RegistrationFormPage:
         return self
 
     def fill_user_picture(self, file_name):
-        browser.element('#uploadPicture').set_value(resources.resource.path(file_name))
+        browser.element('#uploadPicture').set_value(resource.path(file_name))
         return self
 
     def fill_user_current_address(self, value):
