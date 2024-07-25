@@ -4,8 +4,6 @@ from data.users import User
 
 
 class RegistrationFormPage:
-    def __init__(self):
-        pass
 
     def open(self):
         browser.open("/automation-practice-form")
